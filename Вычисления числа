@@ -1,0 +1,57 @@
+import math
+
+print("Какую команду вы хотите исполнить? "
+      "Введите 11: Сумма двух чисел. "
+      "Введите 22: Вычитание одного числа из другого. "
+      "Введите 33: Умножение двух чисел. Введите 4: "
+      "Деление одного числа на другое. Введите 5: "
+      "Решение квадратного уравнения")
+number = int(input())
+if number == 11:
+    print("Gwynbleidd будь так добры-введите первое слагаемое")
+    term1 = float(input())
+    print("Gwynbleidd будь так добры-введите второе слагаемое")
+    term2 = float(input())
+    summ = term1 + term2
+    print(summ)
+elif number == 22:
+    print("Gwynbleidd будь так добры-введите уменьшаемое")
+    min1 = float(input())
+    print("Gwynbleidd будь так добры-введите вычитаемое")
+    min2 = float(input())
+    resid = min1 - min2
+    print(resid)
+elif number == 33:
+    print("Gwynbleidd будь так добры-введите первый множитель")
+    fac1 = float(input())
+    print("Gwynbleidd будь так добры-введите второй множитель")
+    fac2 = float(input())
+    multi = fac1 * fac2
+    print(multi)
+elif number == 4:
+    print("Gwynbleidd Введите пожалуйста делимое")
+    div1 = float(input())
+    print("Gwynbleidd Введите пожалуйста делитель")
+    div2 = float(input())
+    divide = div1 / div2
+    print(divide)
+elif number == 55:
+    print("Gwynbleidd Введите пожалуйста значение a")
+    a = float(input())
+    print("Gwynbleidd Введите пожалуйста значение b")
+    b = float(input())
+    print("Gwynbleidd Введите пожалуйста значение c")
+    c = float(input())
+    d = b ** 2 - 4 * a * c
+    if d > 0:
+        x1 = (-b - math.sqrt(d)) / (2 * a)
+        x2 = (-b + math.sqrt(d)) / (2 * a)
+        print(x1, x2)
+    elif d == 0:
+        x = -b / (2 * a)
+        print(x)
+    else:
+        print("Таких корней не существует Gwynbleidd")
+
+else:
+    print("Gwynbleidd выбрать нейтралитет неполучаеться, сделайте выбор!")
