@@ -1,0 +1,61 @@
+from random import randint
+
+# sps1 = []
+# sps2 = []
+#
+# new_nechet = []
+# new_chet = []
+# for i in range(15):
+#     random_num1 = randint(-100, 100)
+#     random_num2 = randint(-100, 100)
+#
+#     sps1.append(random_num1)
+#     sps2.append(random_num2)
+#
+# for i in sps1:
+#     if i % 2 == 0:
+#         new_chet.append(i)
+# print(f"{new_chet} чёт")
+#
+# for i in sps2:
+#     if i % 2 > 0:
+#         new_nechet.append(i)
+# print(f"{new_nechet} нечёт")
+
+
+
+
+# i = 1
+# j = 1
+# while i < 10:
+#     while j < 10:
+#           print(i * j, end="\t")
+#           j += 1
+#     print("\n")
+#     j = 1
+#     i += 1
+
+
+
+
+# my_file = open("волтер вайт.txt", "w+")
+# my_file.write("Привет, Волтер!\n2 строка\n3 stroca\n4 stroca\n5 stroca")
+# my_file.close()
+# my_file = open("Волтар вайт где мед.txt", "w+")
+
+
+
+
+def prost(n):# получаем число
+    d=2 # олучить остаток от деления на 2, значит - простое
+    while n%d!=0:# пока число mod 2<>0 переберем делители, так как , простое, делится неа 2 и на себя,
+        d+=1# перебрасываем все, кроме 2
+        print(d==n) # выводим
+    return d==n # возвращаем результат
+if __name__ == '__main__':
+    n=int(input())# ввод число
+    print(n)# само число, в понятном виде
+    if prost(n)==True:# число простое - вернуть true и напечатать вывод
+        print("число простое")# по заданию просили так
+    else:
+        print("составное")# если оноо составное, это и вывести
