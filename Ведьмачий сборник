@@ -1,0 +1,24 @@
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?l=russian&id=2736640537')
+webbrowser.open_new_tab('Эликсиры в The Witcher 3: Wild Hunt')
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?id=1403397276')
+webbrowser.open_new_tab('Билд для всех ведьмачьих школ')
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?id=808115191')
+webbrowser.open_new_tab('Доспехи Ведьмака - Школа Волка')
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?id=808773707')
+webbrowser.open_new_tab('Доспехи Ведьмака - Школа Медведя')
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?id=809910453')
+webbrowser.open_new_tab('Доспехи Ведьмака - Школа Кота')
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?id=833540271')
+webbrowser.open_new_tab('Доспехи Ведьмака - Школа Грифона')
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?id=818672527')
+webbrowser.open_new_tab('Доспехи Ведьмака - Школа Мантикоры')
+import webbrowser
+webbrowser.open_new_tab('https://steamcommunity.com/sharedfiles/filedetails/?id=808302687')
+webbrowser.open_new_tab('Доспехи Ведьмака - Школа Змеи')
